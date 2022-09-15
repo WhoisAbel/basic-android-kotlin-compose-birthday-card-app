@@ -95,7 +95,7 @@ fun BirthdayGreetingWithImage(message: String, from: String) {
     }
 }
 
-@Preview(showBackground = false)
+@Preview(showBackground = false, showSystemUi = true)
 @Composable
 private fun BirthdayCardPreview() {
     HappyBirthdayTheme {
